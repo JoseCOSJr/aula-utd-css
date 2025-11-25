@@ -1,0 +1,35 @@
+body {
+    margin: 8px;
+    padding: 8px;
+}
+
+.display-flex{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    vertical-align:middle;
+}
+
+.bloco{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 30%;
+    text-align: center;
+    justify-content: center;
+    vertical-align:middle;
+    border: 4px solid white;
+}
+
+.bloco-maior{
+    display: inline-block;
+    text-align: center;
+    background-color: brown;
+    width: 50%;
+    justify-content: center;
+    vertical-align:middle;
+    border: 8px solid black;
+}
