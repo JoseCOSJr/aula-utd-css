@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-cima{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content:space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.div-cima > ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.div-cima > ul > li{
+    font-size:x-large;
+}
+
+.logo{
+    height: 200px;
+    justify-self:flex-start;
+}

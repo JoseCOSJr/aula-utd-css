@@ -1,7 +1,7 @@
  * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
  }
 
 .main-box{
@@ -11,6 +11,7 @@
     width: 300px;
     border-radius: 20px;
     border: 8px solid black;
+    margin: 50px;
 }
 
 .div-pic-product {
@@ -53,23 +54,22 @@
 }
 
 .botton-box{
-    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
     width: 100%;
     height: 60px;
-    text-align: center;
+    justify-content: center;
 }
 
 .botton-infs{
-    display: inline-block;
     width: 40%;
     height: 50px;
-    border: 4px solid blue;
     font-size:medium;
+    color: white;
+    font-weight: bold;
+    background-color:blueviolet;
+    border-radius: 15px;
     text-align: center;
-    background-color:beige;
-    vertical-align: middle;
-}
-
-.botton-infs>p{
-    display: inline;
+    justify-content: space-around;
 }

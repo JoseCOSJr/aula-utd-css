@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.filho{
+    height: 50px;
+    width: 100px;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+    flex-shrink: 0;
+}
+
+.verde{
+    background-color: green;
+}
+
+.container{
+    margin: 50px;
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    height: 300px;
+    justify-content:space-around;
+    align-items:center;
+    padding: 8px;
+}
+
+.tipo2{
+    justify-content: space-between;
+}
+
+.tipo3{
+    justify-content: center;
+}
+
+.tipo4{
+    justify-content:space-evenly;
+}
+
+.container-pai{
+    display: flex;
+    flex-wrap: wrap;
+}
