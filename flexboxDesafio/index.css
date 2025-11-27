@@ -12,20 +12,21 @@
     color: white;
     justify-content:space-between;
     align-items: center;
-    padding: 16px;
+    padding: 4px;
 }
 
 .div-cima > ul{
     display: flex;
     list-style-type: none;
     gap: 32px;
+    padding: 0;
 }
 
 .div-cima > ul > li{
-    font-size:x-large;
+    font-size:large;
 }
 
 .logo{
-    height: 200px;
+    height: 100px;
     justify-self:flex-start;
 }
