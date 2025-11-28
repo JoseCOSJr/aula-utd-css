@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main-class{
+    align-content:space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.section-class{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.data-inputs{
+    display: flex;
+    flex-direction:column;
+    width: 400px;
+    height: 434px;
+    gap: 10px;
+}
+
+.input-form{
+    align-self: flex-start;
+    text-align: left;
+}
+
+.input-form>p{
+    font-weight: bold;
+    font-size: small;
+}
+
+.img-form>img{
+    height: 480px;;
+    width: 480px;
+}
