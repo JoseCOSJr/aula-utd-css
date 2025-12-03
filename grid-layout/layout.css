@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    color: white;
+}
+
+.main-container{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "left-aside content"
+    ;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr 9fr;
+}
+
+.header{
+    background-color: black;
+    grid-area: header;
+    height: 10vh;
+}
+
+.container-content{
+    background-color: red;
+    grid-area: content;
+}
+
+.left-aside{
+    background-color: blue;
+    grid-area: left-aside;
+}
+
