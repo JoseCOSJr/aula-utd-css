@@ -14,14 +14,14 @@ h2{
     "header header"
     "left-aside content"
     ;
-    grid-template-columns: 1fr 7fr;
+    grid-template-columns: 1fr 6fr;
     grid-template-rows: 1fr 9fr;
+    height: 100vh;
 }
 
 .header{
     background-color: black;
     grid-area: header;
-    height: 10vh;
 }
 
 .container-content{
